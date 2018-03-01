@@ -95,4 +95,4 @@ git remote rm heroku
 
 heroku git:remote -a <newname>
 ```
-Where `<newname>`` is the new name of your application.
+Where `<newname>` is the new name of your application.
