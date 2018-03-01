@@ -1,4 +1,4 @@
-# Deploying a Node Web Server to Heroku
+# Deploying a Node Express Web Server to Heroku
 
 If you cloned a repository you can skip the first three steps and go straight to deployment.
 
