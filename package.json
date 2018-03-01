@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nielsenjared/node-express-heroku-deployment-guide/issues"
   },
-  "homepage": "https://github.com/nielsenjared/node-express-heroku-deployment-guide#readme"
+  "homepage": "https://github.com/nielsenjared/node-express-heroku-deployment-guide#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
