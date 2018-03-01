@@ -1,7 +1,7 @@
 {
   "name": "node-express-heroku-deployment-guide",
   "version": "1.0.0",
-  "description": "Simply a simple guide deploying a simple server to Heroku.",
+  "description": "Simple guide deploying a simple server to Heroku.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nielsenjared/node-express-heroku-deployment-guide.git"
+    "url": "git+ssh://git@github.com/nielsenjared/node-express-heroku-deployment.git"
   },
   "keywords": [
     "simple"
