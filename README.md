@@ -12,7 +12,7 @@ cd node-express-heroku-deployment-guide
 npm init
 ```
 
-During the init process you will be prompted to add a GitHub repository. Now would be a good time to make a new project on GitHub. Add the repo link to your package.json when prompted.
+During the init process you will be prompted to add a GitHub repository. Now would be a good time to make a new project on GitHub. Add the repo link to your `package.json` when prompted.
 
 
 ## Initialize Your Project with git
@@ -22,7 +22,7 @@ git init
 git remote add origin <URL-to-your-repo>
 ```
 
-Create a .gitignore file and add node_modules to it.
+Create a `.gitignore` file and add `node_modules` to it.
 
 
 ## Set Up a Simple Express Server
@@ -31,7 +31,7 @@ Create a .gitignore file and add node_modules to it.
 npm install express --save
 ```
 
-Add a server.js file:
+Add a `server.js` file:
 
 ```
 const express = require('express');
@@ -45,12 +45,12 @@ const PORT = process.env.PORT || 3001;
 app.listen(PORT);
 ```
 
-Start the server and navigate to localhost:3001 to verify that it works.
+Start the server and navigate to [localhost:3001](http://localhost:3001) to verify that it works.
 
 
 ## Deploy to Heroku
 
-In package.json, verify your 'start' script:
+In `package.json`, verify your 'start' script:
 ```
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
@@ -66,7 +66,7 @@ heroku login
 heroku create
 ```
 
-Verify the creation of your Heroku app by running git remote -v.
+Verify the creation of your Heroku app by running `git remote -v`.
 
 Then run the following:
 ```
@@ -87,10 +87,12 @@ git commit -m “Ch-ch-ch-changes…”
 git push heroku master
 ```
 
-Finally, and optionally, change the name of your Heroku app to something more descriptive. On Heroku.com, under the Settings for your application, edit the Name. You will need to update your remote locally. At the command line, run:
+Finally, and optionally, change the name of your Heroku app to something more descriptive. On Heroku.com, under the Settings for your application, edit the Name field.
+
+You will then need to update your remote locally. At the command line, run:
 ```
 git remote rm heroku
 
 heroku git:remote -a <newname>
 ```
-Where <newname> is the new name of your application.
+Where `<newname>`` is the new name of your application.
