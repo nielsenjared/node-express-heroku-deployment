@@ -1,6 +1,6 @@
 # Deploying a Node Express Web Server to Heroku
 
-If you cloned a repository you can skip the first three steps and go straight to [Deploy to Heroku](#deploy-to-heroku).
+If you cloned a repository you can [skip straight to deployment](#deploy-to-heroku).
 
 See the deployed application here: https://node-express-heroku-deployment.herokuapp.com/
 
