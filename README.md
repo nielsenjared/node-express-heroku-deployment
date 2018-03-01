@@ -2,7 +2,7 @@
 
 If you cloned a repository you can skip the first three steps and go straight to deployment.
 
-See the deployed application here:
+See the deployed application here: https://node-express-heroku-deployment.herokuapp.com/
 
 
 ## Initialize Your Project with npm
@@ -76,7 +76,9 @@ git push -u origin master
 git push heroku master
 ```
 
-Navigate to the URL provided to verify deployment. Hello, world!
+Navigate to the URL provided to verify deployment. It will be something poetic, like: https://dry-chamber-49146.herokuapp.com/
+
+Hello, world!
 
 In the future:
 ```
